@@ -20,14 +20,14 @@ public class ProblemSolver {
     public static void main(String[] args) throws CloneNotSupportedException {
 //(int eaterFrom, int humanFrom, int eaterGoal, int humanGoal) {
 
-        HumanEaterProblem hep=new HumanEaterProblem(3, 3, 0, 0, false, null);
-        HumanEaterProblem goal=new HumanEaterProblem(0, 0, 3, 3, true, null);
+//        HumanEaterProblem hep=new HumanEaterProblem(3, 3, 0, 0, false, null);
+//        HumanEaterProblem goal=new HumanEaterProblem(0, 0, 3, 3, true, null);
 //        System.out.println(hep);
 //        System.out.println(hep.nodes);
         Bidirectional a = new Bidirectional(true);
-        a.solve(hep,goal);
+//        a.solve(hep,goal);
         
-        System.exit(0);
+ //       System.exit(0);
 
         //        Robot aa=new Robot(100, 100, 12, 1, "");
         //        System.out.println(aa.h());
